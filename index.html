@@ -1,0 +1,198 @@
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dilettante Blog</title>
+
+    <!-- style -->
+    <!-- load order matters and I don't know why -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="resources/css/main.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
+
+    <!-- blurb animation -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+
+    <!-- custom js -->
+    <script src="js/dilettante.js"></script>
+
+    <!-- wow.js animation -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+
+<section>
+
+    <h1 align="center">
+        Dilettante
+    </h1>
+
+    <h2 align="center">
+        A blog about a little bit of everything
+    </h2>
+
+    <hr>
+
+    <nav>
+        <!-- must add sort functionality here -->
+        <ul align="center" class="menuItems">
+            <li><a id="All" href="#Sales">All</a></li>
+            <li><a id="STEM" href="#Products">STEM</a></li>
+            <li><a id="Cinema" href="#About">Cinema</a></li>
+            <li><a id="History" href="#Contact">History</a></li>
+        </ul>
+    </nav>
+
+</section>
+
+<!-- Animated Blurb -->
+<div id="animation">
+
+    <div id="topDefinition">
+        <!-- the text to be typed is 'data-rotate'. using spans here allows word-specific styling -->
+        <span id="dilettante" style="font-size: 2em" class="txt-rotate" data-period="50" data-rotate='[ "dilettante" ]'></span>
+
+        <span id="noun" class="txt-rotate" data-period="50" data-rotate='[ "(noun) " ]'></span>
+
+        <span id="definition1" class="txt-rotate" data-period="25" data-rotate='[ "a person who cultivates an area of interest, such as the arts, without real commitment or knowledge." ]'></span> <br>
+        
+    </div>
+
+    <div id="bottomDefinition">
+        <span id="archaic" class="txt-rotate" data-period="50" data-rotate='[ "archaic:" ]'></span>
+
+        <span id="a" class="txt-rotate" data-period="50" data-rotate='[ "a person with an amateur interest in the arts." ]'></span> <br>
+
+        <span id="synonyms" class="txt-rotate" data-period="50" data-rotate='[ "synonyms:" ]'></span>
+
+        <span id="s" class="txt-rotate" data-period="50" data-rotate='[ "dabbler, potterer, tinkerer, trifler, dallier" ]'></span>
+
+        <!-- button for accessing articles -->
+        
+
+
+
+
+    </div>
+        <div class="triangleContainer">
+            <button class="triangle" id="mybutton" type="button"></button>
+        </div>
+
+
+</div>
+
+<!-- articles -->
+<div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 Cinema column">
+        <div id="1" class="article">
+            <img class="articleImg" src="img/portfolio/FightClub.jpg" alt="">
+            <h3>Fight Club: a cinematic interpretation of the Unabomber Manifesto</h3>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 Cinema column">
+        <div id="2" class="article">
+            <img class="articleImg" src="img/portfolio/CTHD.jpg" alt="">
+            <h3>Crouching Tiger Hidden Dragon: absolute power doesn't corrupt; it is neutral</h3>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 Cinema column">
+        <div id="3" class="article">
+            <img class="articleImg" src="img/portfolio/Dunkirk.jpg" alt="">
+            <h3>Dunkirk: Review of Reviews</h3>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 History column">
+        <div id="4" class="article">
+            <img class="articleImg" src="img/portfolio/Napoleon.jpg" alt="">
+            <h3>Napoleon Bonaparte's betrayal of his Jewish subjects</h3>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 History column">
+        <div id="1" class="article">
+            <img class="articleImg" src="img/portfolio/fred.jpg" alt="">
+            <h3>The love affair between Prussia's greatest King and France's greatest philosopher</h3>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 History column">
+        <div id="2" class="article">
+            <img class="articleImg" src="img/portfolio/Charlamagne.jpg" alt="">
+            <h3>The Carolingian Renaissance: What it was, and how it affects you</h3>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 STEM column">
+        <div id="3" class="article">
+            <img class="articleImg" src="img/portfolio/test.svg" alt="">
+            <h3>What is machine learning?</h3>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 STEM column">
+        <div id="4" class="article">
+            <img class="articleImg" src="img/portfolio/bitcoin.jpg" alt="">
+            <h3>What is bitcoin?</h3>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 STEM column">
+        <div id="1" class="article">
+            <img class="articleImg" src="img/portfolio/blockchain.png" alt="">
+            <h3>What is blockchain?</h3>
+        </div>
+    </div>
+</div>
+
+<!-- remove blurb -->
+<script>
+    $(document).ready(function() {
+        $("#mybutton").click(function() {
+
+            <!-- remove blurb -->
+            $("#animation").addClass("wow fadeOutRight");
+            $("#animation").toggleClass("wow animated");
+            $("#animation").hide();
+
+            <!-- summon articles -->
+            $(".row").css("display", "flex", "inline-block");
+            $(".row").addClass("wow fadeInLeft");
+            $(".row").toggleClass("wow animated");
+        });
+    });
+
+</script>
+
+<!-- summon triangle button -->
+<script>
+    $(document).ready(function() {
+        setTimeout(function() {
+
+            $('#mybutton').css("display", "flex", "inline-block");
+            $('#mybutton').addClass("wow fadeIn");
+            $('#mybutton').toggleClass("wow animated");
+        }, 2000);
+    });
+
+</script>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/freelancer.js"></script>

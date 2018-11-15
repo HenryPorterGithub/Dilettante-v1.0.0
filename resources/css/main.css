@@ -1,0 +1,191 @@
+body {
+    background-color: lightpink;
+    font-family: 'Cormorant', serif;
+    color: black;
+}
+
+/* TTILE */
+
+h1 {
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 8em;
+}
+
+hr {
+    border-top: 3px double black;
+    width: 300px;
+}
+
+nav {
+    word-spacing: 30px;
+    margin-bottom: 100px;
+}
+
+nav li a,
+nav li {
+    display: inline;
+    height: auto;
+    outline-style: none;
+    text-decoration: none;
+}
+
+.menuItems a {
+    text-align: center;
+    color: black;
+}
+
+ul {
+    padding: 0;
+}
+
+/* ANIMATED BLURB */
+
+.txt-rotate {
+    font-size: 2em;
+}
+
+#dilettante {
+    color: white;
+    text-align: left;
+}
+
+#noun {
+    font-style: italic;
+}
+
+#synonyms,
+#archaic {
+    color: white;
+}
+
+#animation {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10vh;
+}
+
+#animation {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#topDefinition {
+    height: 100px;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+#bottomDefinition {
+    height: 100px;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.triangleContainer {
+    width: 200px;
+    height: 200px;
+    float: right;
+    position: relative;
+    right: 98px;
+    bottom: 125px;
+}
+
+.triangle {
+    /* triangle shape */
+    background-color: lightpink;
+    border-top: 25px solid transparent;
+    border-left: 50px solid black;
+    border-bottom: 25px solid transparent;
+    border-right: 0px;
+
+    /* this is changed by jquery on a timer */
+    display: none;
+
+}
+
+.triangle:hover {
+    border-left: 50px solid white;
+}
+
+/* ARTICLES */
+
+.article {
+    width: 280px;
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 50px;
+    border: solid;
+}
+
+.article:hover {
+    position: relative;
+    right: 15px;
+    bottom: 15px;
+    box-shadow: 15px 15px;
+    text-decoration: underline;
+}
+
+.articleImg {
+    width: 274px;
+    height: 400px;
+}
+
+.column {
+    text-align: center;
+
+}
+
+.row {
+    display: none;
+    margin-left: 250px;
+    margin-right: 275px;
+}
+
+/* RESPONSIVENESS */
+
+/* large */
+
+@media screen and (max-width: 1140px) {
+    .row {
+        display: none;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .triangleContainer {
+        left: 150px;
+    }
+}
+
+/* medium */
+
+@media screen and (max-width: 992px) {
+    .row {
+        display: none;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .triangleContainer {
+        left: 150px;
+    }
+}
+
+/* small */
+
+@media screen and (max-width: 768px) {
+    .row {
+        display: none;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #topDefinition {
+        height: 400px;
+    }
+}
+
+}
