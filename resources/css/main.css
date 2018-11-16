@@ -75,14 +75,14 @@ ul {
 
 #topDefinition {
     height: 100px;
-    width: 800px;
+    width: 850px;
     margin: 0 auto;
 
 }
 
 #bottomDefinition {
     height: 100px;
-    width: 800px;
+    width: 850px;
     margin: 0 auto;
 
 }
@@ -92,7 +92,7 @@ ul {
     height: 200px;
     float: right;
     position: relative;
-    right: 98px;
+    right: 48px;
     bottom: 125px;
 }
 
